@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This script listens on port 98 and displays any received messages.
+
+# Listen on port 98 and output received messages
+while true; do
+    # Use netcat to listen on port 98
+    nc -l -p 98
+done
